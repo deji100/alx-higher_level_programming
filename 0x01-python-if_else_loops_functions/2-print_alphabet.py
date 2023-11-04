@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for c in range(ord("A"), ord("Z") + 1):
-    print(f"{chr(c).lower()}", end="")
+    print("{}".format(chr(c).lower()), end="")
